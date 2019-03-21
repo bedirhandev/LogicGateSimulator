@@ -9,7 +9,6 @@ class Circuit {
 	public:
 		Circuit();
 		~Circuit();
-		void draw();
 		void calculate();
 	public:
 		std::map<std::string, std::shared_ptr<Node>> NodeMap;

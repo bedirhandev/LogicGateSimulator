@@ -11,7 +11,7 @@ InputLow::InputLow() {}
 void InputLow::action()
 {
         this->draw();
-        printf("This node has %lu input pins: ", IN.size());
+        printf("This node has 0 input pins.");
         for(auto& node : this->IN) {
                  printf("[%s: %d] ", node.lock()->id.c_str(), node.lock()->output);
         }
