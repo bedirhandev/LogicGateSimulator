@@ -13,8 +13,8 @@ void AndGate::action()
         this->draw();
         printf("This node has %lu input pins: ", IN.size());
 
+	this->output = 1;
 	for(auto& node : this->IN) {
-		this->output = 1;
 		if(node.lock()->output == 0) {
 			this->output = 0;
 			break;

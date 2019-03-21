@@ -12,9 +12,9 @@ void OrGate::action()
 {
 	this->draw();
 	printf("This node has %lu input pins: ", IN.size());
-	
+
+	this->output = 0;
 	for(auto& node : this->IN) {
-		this->output = 0;
 		if(node.lock()->output == 1) {
 			this->output = 1;
 			break;
