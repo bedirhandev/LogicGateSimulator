@@ -26,13 +26,12 @@ inline void draw(_NodeMap map, _Path path)
 		if(id.find(GATE) != std::string::npos) {	
 			map[id]->action();
 		}
-		//Node->draw(); 
 	} 
 }
 
 int main(void) {
 	// File Reader
-	std::ifstream file("circuit3.txt");
+	std::ifstream file("circuits/circuit3.txt");
 
 	std::istreambuf_iterator<char> i_file(file);
 	std::istreambuf_iterator<char> eof;
