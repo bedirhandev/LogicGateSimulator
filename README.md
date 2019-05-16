@@ -1,9 +1,7 @@
 # LogicGateSimulator
 
 # Assignment description
-```
 The task was to read a text file that contains data about a certain circuit. The circuit has to be read, built, checked on errors and at the end the result of the circuit has to be printed and the error state if an error occured.
-```
 
 # An example of text file
 Description of all the nodes
@@ -41,14 +39,10 @@ NODE10: NODE11;
 NODE11: S;
 
 # Explanation
-```
 The purpose is to connect all nodes that have a relation with another node and quickly find the end result of that circuit.
 This approach could be done with for example; the BFS algorithm or the feed forward algorithm and more.
-```
 
 # The design patterns I used in this assignment
-```
 Factory method
 Prototype
 Strategy
-```
