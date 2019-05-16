@@ -39,10 +39,10 @@ NODE10: NODE11;
 NODE11: S;
 
 # Explanation
-The purpose is to connect all nodes that have a relation with another node and quickly find the end result of that circuit.
-This approach could be done with for example; the BFS algorithm or the feed forward algorithm and more.
+The purpose is to connect all nodes that have a relation with another node and quickly find the end result of that circuit.  
+This approach could be done with for example; the BFS algorithm or the feed forward algorithm and more.  
 
 # The design patterns I used in this assignment
-Factory method
-Prototype
-Strategy
+Factory method . 
+Prototype . 
+Strategy . 
